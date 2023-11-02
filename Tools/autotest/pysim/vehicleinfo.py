@@ -289,7 +289,7 @@ class VehicleInfo(object):
             },
             "mini-talon": {
                 "waf_target": "bin/arduplane",
-                "default_params_filename": "default_params/mini-talon-vtail.param",
+                "default_params_filename": "default_params/mini_talon_vtail.param",
                 "external": True,
             },
             "last_letter": {
