@@ -287,6 +287,11 @@ class VehicleInfo(object):
                 "default_params_filename": "default_params/gazebo-zephyr.parm",
                 "external": True,
             },
+            "mini-talon": {
+                "waf_target": "bin/arduplane",
+                "default_params_filename": "default_params/mini-talon-vtail.parm",
+                "external": True,
+            },
             "last_letter": {
                 "waf_target": "bin/arduplane",
                 "default_params_filename": "default_params/plane.parm",
